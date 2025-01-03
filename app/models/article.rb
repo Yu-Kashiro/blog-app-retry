@@ -22,6 +22,8 @@ class Article < ApplicationRecord
   validates :content, length: { minimum: 10 }
   validates :content, uniqueness: true
 
+  has_many :comments, dependent: :destroy
+
   belongs_to :user
 
   validate :validate_title_and_content_length
