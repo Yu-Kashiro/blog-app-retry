@@ -334,6 +334,7 @@ DEPENDENCIES
   dotenv-rails
   erb2haml
   faker
+  ffi (~> 1.15)
   hamlit
   jbuilder (~> 2.7)
   listen (~> 3.2)
