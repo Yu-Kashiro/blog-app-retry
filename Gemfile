@@ -28,7 +28,7 @@ gem 'devise'
 gem 'faker'
 gem 'hamlit'
 gem 'aws-sdk-s3', require: false
-gem 'ffi', '~> 1.15'
+gem 'ffi', '1.16.3'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
