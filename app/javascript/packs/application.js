@@ -21,3 +21,10 @@ require("@rails/actiontext")
 
 import "trix"
 import "@rails/actiontext"
+import $ from 'jquery'
+
+document.addEventListener('DOMContentLoaded', () => {
+  $('.article_title').on('click', () => {
+    window.alert('CLICKED')
+  })
+})
