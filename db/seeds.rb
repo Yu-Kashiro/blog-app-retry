@@ -6,11 +6,11 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# john = User.create!(email: 'test3@example.com', password: 'password')
-# emily = User.create!(email: 'test4@example.com', password: 'password')
+john = User.create!(email: 'test3@example.com', password: 'password')
+emily = User.create!(email: 'test4@example.com', password: 'password')
 
-john = User.first
-emily = User.second
+# john = User.first
+# emily = User.second
 
 5.times do
   john.articles.create!(
