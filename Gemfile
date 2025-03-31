@@ -45,6 +45,7 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'rubocop-rails'
   gem 'dotenv-rails'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -64,6 +65,7 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
+  gem 'rspec-rails'
   gem 'webdrivers'
 end
 
